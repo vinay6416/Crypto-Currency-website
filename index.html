@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Currency Website</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+
+        <h1>💰 CryptoWorld</h1>
+
+        <ul>
+
+            <li>
+                <a href="#home">Home</a>
+            </li>
+
+            <li>
+                <a href="#market">Market</a>
+            </li>
+
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <div class="hero-text">
+
+            <h2>
+                Invest In Digital Currency
+            </h2>
+
+            <p>
+                Buy and sell cryptocurrencies
+                safely and easily.
+            </p>
+
+            <button onclick="goToMarket()">
+                Get Started
+            </button>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img
+                src="https://cdn-icons-png.flaticon.com/512/6001/6001527.png"
+                alt="crypto">
+
+        </div>
+
+    </section>
+
+    <!-- Crypto Cards -->
+    <section
+        class="crypto-container"
+        id="market">
+
+        <div class="crypto-card">
+
+            <img
+                src="https://cryptologos.cc/logos/bitcoin-btc-logo.png"
+                alt="Bitcoin">
+
+            <h3>Bitcoin</h3>
+
+            <p id="btc-price">$65000</p>
+
+            <button onclick="buyCoin('Bitcoin')">
+                Buy Now
+            </button>
+
+        </div>
+
+        <div class="crypto-card">
+
+            <img
+                src="https://cryptologos.cc/logos/ethereum-eth-logo.png"
+                alt="Ethereum">
+
+            <h3>Ethereum</h3>
+
+            <p id="eth-price">$3500</p>
+
+            <button onclick="buyCoin('Ethereum')">
+                Buy Now
+            </button>
+
+        </div>
+
+        <div class="crypto-card">
+
+            <img
+                src="https://cryptologos.cc/logos/tether-usdt-logo.png"
+                alt="Tether">
+
+            <h3>Tether</h3>
+
+            <p id="usdt-price">$1</p>
+
+            <button onclick="buyCoin('Tether')">
+                Buy Now
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section
+        class="about"
+        id="about">
+
+        <h2>About CryptoWorld</h2>
+
+        <p>
+            CryptoWorld is a modern crypto
+            platform where users can track
+            cryptocurrency prices and learn
+            about digital currency.
+        </p>
+
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+
+        <h2>Contact Us</h2>
+
+        <p>Email: cryptoworld@gmail.com</p>
+
+        <p>
+            © 2026 CryptoWorld |
+            All Rights Reserved
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
